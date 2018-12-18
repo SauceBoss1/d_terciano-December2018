@@ -15,23 +15,26 @@ public class misc_code {
 	}
 	
 	public static int choose(int n, int k) {
+		a+=1;
 		if (k==0) {
-			a+=1;
+			//a+=1;
 			return 1;
 		} else {
-			a+=1;
+			//a+=1;
 			return choose(n, k-1) * (n-k+1)/k;
 		}
 	}
 	
 	public static int choose_v2(int n, int k) {
+		a+=1;
+		
 		if(k<0 || k>n) {
 			return 0;
 		} else if( n == 0) {
-			a+=1;
+			//a+=1;
 			return 1;
 		} else {
-			a+=1;
+			//a+=1;
 			return choose_v2(n-1, k-1) + choose_v2(n-1, k);
 		}
 	}
