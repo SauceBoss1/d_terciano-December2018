@@ -26,8 +26,7 @@ public class misc_code {
 	}
 	
 	public static int choose_v2(int n, int k) {
-		a+=1;
-		
+		a+=1;		
 		if(k<0 || k>n) {
 			return 0;
 		} else if( n == 0) {
